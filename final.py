@@ -73,7 +73,7 @@ def getImage(name):
     if not path.exists("./img/"+name):
         thread = threading.Thread(target=download_image, args=(name,))
         thread.daemon = True
-        #thread.start()
+        thread.start()
         return loading
 
     return resize_image(Image.open("./img/"+name),500)
