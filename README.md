@@ -8,7 +8,11 @@ To run this Project you need an PC running Windows (Tested: Windows 11) with Pyt
 2) Execute the setup.bat wich will install all python libaries
 3) Change Import in keras_vggface (https://stackoverflow.com/questions/51337558/how-to-import-keras-engine-topology-in-tensorflow) 
 Execute "pip show keras_vggface" to show libary location
-In "keras_vggface/models.py" change "from keras.engine.topology import get_source_inputs" to "from keras.utils.layer_utils import get_source_inputs"
+In "keras_vggface/models.py" \
+change \
+from keras.engine.topology import get_source_inputs \
+to \
+from keras.utils.layer_utils import get_source_inputs
 
 ## PIP Installs
 
