@@ -2,7 +2,7 @@
 
 ## Prerequisites
 To run this Project you need an PC running Windows (Tested: Windows 11) with Python 3 installed.
-
+Cancel changes
 ## Installation
 1) Clone this Repository
 2) Execute the setup.bat which will install all python libaries
@@ -17,6 +17,7 @@ from keras.utils.layer_utils import get_source_inputs
 ## PIP Installs
 
 pip install opencv-python \
+pip install cmake \
 pip install face_recognition \
 pip install mtcnn \
 pip install tensorflow \
